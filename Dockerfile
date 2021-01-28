@@ -4,7 +4,7 @@ MAINTAINER Martin van Beurden <chadoe@gmail.com>
 
 COPY ./bin /usr/local/bin
 
-RUN apk add --no-cache bash openvpn=2.4.9-r0 git openssl && \
+RUN apk add --no-cache bash openvpn=2.5.0-r1 git openssl && \
 # Get easy-rsa
     git clone -b v3.0.6 --depth 1 https://github.com/OpenVPN/easy-rsa.git /tmp/easy-rsa && \
     cd && \
