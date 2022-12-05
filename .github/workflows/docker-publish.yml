@@ -5,6 +5,7 @@ on:
     branches:
       - "main"
       - "master"
+      - "rc0"
 
 jobs:
   docker:
